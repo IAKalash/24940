@@ -6,7 +6,7 @@ extern char *tzname[];
 
 int main() {
 
-    setenv("TZ", "PST", 1);
+    setenv("TZ", "America/Los_Angeles", 1);
 
     time_t now;
     struct tm *sp;
